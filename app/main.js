@@ -20,6 +20,9 @@ Router(controller, {
   '/messages': 'messagesOpened',
   '/messages/:id': 'messageOpened',
   '*': 'invalidUrlRouted'
-}).start();
+}, {
+  baseUrl: '/todomvc',
+  onlyHash: true
+}).trigger();
 
 React.render(<Container controller={controller} app={App}/>, document.body);

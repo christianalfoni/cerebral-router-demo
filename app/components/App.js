@@ -33,7 +33,7 @@ class App extends React.Component {
         <div>
           <a style={LinkStyle} onClick={() => this.props.signals.homeOpened()}>Home</a>
           -
-          <a style={LinkStyle} href="/messages">Messages</a>
+          <a style={LinkStyle} href="/#/messages">Messages</a>
         </div>
         <div style={{padding: 15}}>
           {this.renderPage()}

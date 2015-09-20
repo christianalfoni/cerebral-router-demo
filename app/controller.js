@@ -1,5 +1,5 @@
 import Controller from 'cerebral';
-import Model from 'cerebral-immutable-store';
+import Model from 'cerebral-baobab';
 
 import request from 'superagent';
 
